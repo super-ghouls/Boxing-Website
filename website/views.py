@@ -10,6 +10,10 @@ def home():
 def jab():
     return render_template("jab.html")
 
+@views.route('/cross')
+def cross():
+    return render_template("cross.html")
+
 @views.route('/styles')
 def styles():
     return render_template("styles.html")
