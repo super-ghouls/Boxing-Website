@@ -1,16 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-    <meta charset="UTF-8">
-    <header class="head" href=""></header>
-    <link rel="stylesheet" href="">
-    <style></style>
-    <script src=""></script>
-    <body>
-        <img src="img_la.jpg" alt="LA" style="width:100%">
-        <div class="">
-            <h1>This is a Heading</h1>
-                <p>This is a paragraph.</p>
-                <p>This is another paragraph.</p>
+{% extends "base.html" %} {% block title %}Stances{% endblock %} {% block h1 %}The Pugilist's Stance{% endblock %}
+{% block content %} 
+<div class="term"><h3>Conventional Guard</h3></div>
+    <div class="def">
+        The most popular stance used in the modern era of boxing,  the boxer is oriented more square 
+        than a fighter in the shell but more bladed than a fighter in a peek-a-boo or high guard. Their 
+        hands are oriented by their chin or cheeks and often transition between a long guard or high 
+        guard. This stance is well rounded for defense or offense and can be used at any range.
+        <div class="dboxers">
+            Popular boxers in this stance include: Keith Thurman, Terrence Crawford, Jermall Charlo
         </div>
-    </body>
-</html>
+    </div>
+<div class="term"><h3>Cross-Guard/Crab Guard</h3></div>
+    <div class="def">
+        A rarely used stance where the boxer has both arms crossed, their right hand generally by their 
+        left ear, elbow/forearm facing their opponent and their left hand by their liver and their 
+        elbow/forearm is also facing their opponent. It’s a very safe stance where the only opening is 
+        on the left side of the body, near the liver. The boxer can parry or catch punches on his hands, 
+        elbows or forearms. While it’s hard to build an offense off this stance, it’s excellent for 
+        defense, can be used to close the distance with little to no damage or on the way out from close 
+        range. Requires excellent use of footwork, bobbing, weaving and rolling to get on the inside to 
+        counter/pot shot or wrap your opponent up. Forearms and elbows are used liberally to frame the 
+        opponent’s head/chin and smother their offense by breaking their stance and giving them little 
+        room to work. 
+        <div class="dboxers">
+            Popular boxers in this stance include: Archie Moore, Evander Holyfield, and 'Big' George Foreman*
+        </div>
+    </div>
+<div class="term"><h3>High Guard/Double Guard</h3></div>
+    <div class="def">
+        A popular boxing stance that is generally most effective at mid to close range. Perfect for the 
+        Catch-and-shoot style of boxing where the boxer catches punches on his guard and fires his own 
+        punch in return. This stance is mostly used by Mexican fighters who are known for their 
+        aggression and propensity to fight on the inside, catching and trading punches till one fighter 
+        drops.
+        <div class="dboxers">
+            Popular boxers in this stance include: Adrien Broner, Gervonta Tank Davis and Saul Canelo Alvarez.
+        </div>
+    </div>
+<div class="term"><h3>Long-Guard/Half-Guard</h3></div>
+    <div class="def">
+        The long guard is a stance where the rear hand is held high by the temple and the lead hand is 
+        held up and out to provide traffic for incoming punches. The lead elbow can be used to deflect 
+        and block punches as well, an excellent guard for long rangy fighters.
+            <div class"dboxers">
+                Popular boxers in this stance include: Larry Holmes, Wladimir Klitschko, Lennox Lewis, Anthony Joshua
+            </div>
+    </div>
+<div class="term"><h3>Low-Guard</h3></div> 
+    <div class="def">
+        Like the name implies, the boxer keeps both hands in a low position. Allows for easier upper 
+        body mobility to sway, pull and slip punches as well as counter their opponent from a low angle. 
+        The stance inherently works as a way to bait punches and confuse your opponent. 
+            <div class="dboxers">
+                Popular boxers in this stance include: Roy Jones Jr., Prince Naseem Hamed, Pernell Whittaker
+            </div>
+    </div>
+<div class="term"><h3>Peek-a-boo/Tight Defense</h3></div>
+    <div class="def">
+        Contrary to popular belief the peek-a-boo defense is a stance, not a style. Both hands are 
+        held tightly in front of the opponent's face and his torso is oriented in a squared position 
+        to his opponent. Popularized by Cus D'amato and his protégés Floyd Patterson and  Mike Tyson, 
+        the peek-a-boo is a stance to be used for aggressive counter punching, generally the counters 
+        come after the punch, depending on the peek-a-boo user to avoid and catch straight punches and 
+        fire back with hooks and uppercuts. This stance can also be used by sluggers and boxer punchers 
+        namely, Ike Quartey and Jose Torres, where the squared torso allows for more powerful jabs and 
+        provides strong defense in mid to long range because it doesn’t allow straight punches to split 
+        the guard.
+            <div class="dboxers"> 
+                Popular boxers in this stance include: Mike Tyson, Floyd Patterson, Ike Quartey
+            </div>
+    </div>
+<div class="term"><h3>Philly Shell/Detroit Shell/Stonewall Defense</h3></div>
+    <div class="def">
+        Variation of Cross-Guard developed in Detroit, Michigan. Popularized by Floyd Mayweather, 
+        it’s generally used by counter punchers effective in close and mid/long range. Lead hand is 
+        held low and across the belly, lead shoulder is the first line of defense protecting the chin 
+        and used to roll straights/crosses. Rear hand can be held high or lower by the jaw, used to 
+        parry and catch jabs/hooks. Torso is generally oriented in a bladed stance but can be squared 
+        toward the opponent.
+        <div class="dboxers">
+            Popular boxers in this stance include: George Benton, Floyd Mayweather, Ken Norton
+        </div>
+    </div>
+<div class="term"><h3>Southpaw</h3></div> 
+    <div class="def">
+        The mirror image of most right-handed fighters, southpaws have an innate advantage due to how 
+        rare they are and often find success in frustrating and outmaneuvering their opponents. 
+        <div class="dboxers">
+            Popular boxers in this stance include: 'Winky' Wright, Vasily Lomanchenko and Terrence Crawford*
+        </div>
+    </div>
+{% endblock %}

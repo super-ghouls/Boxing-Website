@@ -26,17 +26,22 @@
                     <a class="nav-item nav-link" id="signup" href="/signup">Signup</a>
                     <a class="nav-item nav-link" id="logout" href="/logout">Logout</a>
                     <a class="nav-item nav-link" id="home" href="/">Home</a>
-                    <a class="nav-item nav-link" id="styles" href="styles.html">Styles</a> 
-                    <a class="nav-item nav-link" id="stances" href="stances.html">Stances</a> 
-                    <a class="nav-item nav-link" id="jab" href="jab.html">The Jab</a> 
-                    <a class="nav-item nav-link" id="hook" href="hook.html">The Hook</a>
-                    <a class="nav-item nav-link" id="uppercuts" href="uppercuts.html">The Uppercut</a>
-                    <a class="nav-item nav-link" id="movement" href="movement.html">Movement and Angles</a>
-                    <a class="nav-item nav-link" id="biya" href="biya.html">Boxers</a>
+                    <a class="nav-item nav-link" id="styles" href="/styles">Styles</a> 
+                    <a class="nav-item nav-link" id="stances" href="/stances">Stances</a> 
+                    <a class="nav-item nav-link" id="jab" href="/jab">The Jab</a> 
+                    <a class="nav-item nav-link" id="hook" href="/hook">The Hook</a>
+                    <a class="nav-item nav-link" id="uppercuts" href="/uppercut">The Uppercut</a>
+                    <a class="nav-item nav-link" id="movement" href="/movement">Movement and Angles</a>
+                    <a class="nav-item nav-link" id="biya" href="/boxers">Boxers</a>
                 </div>
             </div>
         </nav>
         <h1 align="center">{% block h1 %}The Pugilist's Encyclopedia{% endblock %}</h1>
+        <div class="container">
+            {% block content %}
+            {% endblock %}
+        </div>
+                
         <script
             src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
