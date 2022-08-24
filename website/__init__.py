@@ -1,4 +1,9 @@
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLALchemy()
+DB_Name = "database.db"
+
 def create_app():
     app = Flask (__name__)
     app.config['SECRET_KEY'] = '/box/ing'
