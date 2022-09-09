@@ -1,0 +1,68 @@
+<nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pugilism</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Pugilist's Encyclopedia</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-item nav-link" id="login" href="/login">Login</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-item nav-link" id="signup" href="/signup">Signup</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-item nav-link" id="logout" href="/logout">Logout</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-item nav-link" id="styles" href="/styles">Styles</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-item nav-link" id="stances" href="/stances">Stances</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-item nav-link" id="jab" href="/jab">The Jab</a>
+          </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                The Cross
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#straight">The Straight</a><li>
+                <li><a class="dropdown-item" href="#chop">Chopping Right</a><li>
+                <li><a class="dropdown-item" href="#corkscrew">Corkscrew Punch</a><li>
+                <li><a class="dropdown-item" href="#cross">The Cross</a><li>
+                <li><a class="dropdown-item" href="#feint">Feint/Fake Cross</a><li>
+                <li><a class="dropdown-item" href="#loop">Looping Punch</a><li>
+                <li><a class="dropdown-item" href="#over">Overhand</a><li>
+                <li><a class="dropdown-item" href="#short">Short Straight</a><li>
+                <li><a class="dropdown-item" href="#body">Straight (Body)</a><li>
+                <li><a class="dropdown-item" href="#under">Underhand</a><li>
+              </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-item nav-link" id="hook" href="/hook">The Hook</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-item nav-link" id="uppercuts" href="/uppercut">The Uppercut</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-item nav-link" id="movement" href="/movement">Movement and Angles</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-item nav-link" id="biya" href="/boxers">Boxers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
