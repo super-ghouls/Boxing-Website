@@ -26,7 +26,7 @@
 <h3 align="center">Boxing Website</h3>
 
   <p align="center">
-    project_description
+    My goal was to build my first website using Python, I decided to use the Flask framework to start. Still deciding on what features to add for more complexity.
     <br />
     <a href="https://github.com/dylanagyemang/Boxing-Website"><strong>Explore the docs »</strong></a>
     <br />
