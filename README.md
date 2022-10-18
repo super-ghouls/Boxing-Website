@@ -12,7 +12,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/dylan-agyemang-8a33b942/]
+[![LinkedIn][linkedin-shield]][linkedin-url](https://www.linkedin.com/in/dylan-agyemang-8a33b942/)
 
 
 
