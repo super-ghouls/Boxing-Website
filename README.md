@@ -82,6 +82,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
+* [![Flask][Flask.com]][Flask-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 
@@ -226,5 +227,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Laravel-url]: https://laravel.com
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+[Flask.com]: https://img.shields.io/badge/-Flask-000000?style=for-the-badge&logo=flask
+[Flask-url]: https://flask.palletsprojects.com/en/2.2.x/
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
