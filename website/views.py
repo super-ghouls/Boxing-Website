@@ -34,6 +34,6 @@ def uppercut():
 def movement():
     return render_template("movement.html")
 
-@views.route('/boxers')
+@views.route('/quiz')
 def boxers():
-    return render_template("biya.html")
+    return render_template("quiz.html")

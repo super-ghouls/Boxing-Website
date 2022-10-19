@@ -46,13 +46,13 @@ div{
 #subnav{
     display:grid !important;
     text-align: right !important;
-    background-color: rgb(255, 0, 0) !important;
+    background-color: #e6b869 !important;
     text-transform: uppercase !important;
-    height: fit-content !important; /* 100% Full-height */
+    height: 100% !important; /* 100% Full-height */
     width: fit-content !important; /* 0 width - change this with JavaScript */
     position: fixed !important; /* Stay in place */
     z-index: 1 !important; /* Stay on top */
-    top: 5rem !important; /* Stay at the top */
+    top: 0 !important; /* Stay at the top */
     right: 0 !important;
     overflow-x: hidden !important; /* Disable horizontal scroll */
     padding-top: 0px !important; /* Place content 60px from the top */
@@ -88,6 +88,7 @@ body{
     margin-left: -1rem !important;
     margin-right: -1rem !important;
     width: 100% !important;
+    background-color: #f00820 !important;
 }
 hr { 
     display: block; 
@@ -99,4 +100,20 @@ hr {
 
 footer{
     margin-top: 2rem;
+}
+
+.kid:nth-child(2){
+    transition-delay: 300ms;
+}
+.kid:nth-child(3){
+    transition-delay: 600ms;
+}
+.kid:nth-child(4){
+    transition-delay: 900ms;
+}
+.vi{
+    border: 3px solid aliceblue;
+    border-width: .5rem;
+    border-style: double;
+    box-sizing: border-box;
 }
