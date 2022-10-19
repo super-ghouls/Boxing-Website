@@ -49,7 +49,7 @@ div{
     background-color: #e6b869 !important;
     text-transform: uppercase !important;
     height: 100% !important; /* 100% Full-height */
-    width: fit-content !important; /* 0 width - change this with JavaScript */
+    width: 14rem !important; /* 0 width - change this with JavaScript */
     position: fixed !important; /* Stay in place */
     z-index: 1 !important; /* Stay on top */
     top: 0 !important; /* Stay at the top */
@@ -87,8 +87,13 @@ body{
     margin-top: -1rem !important;
     margin-left: -1rem !important;
     margin-right: -1rem !important;
-    width: 100% !important;
+    width: 78rem !important;
+    height: 4rem !important;
     background-color: #f00820 !important;
+}
+#top a:hover{
+    background-color:#3d9943;
+    border: 0.2rem groove #a33128;
 }
 hr { 
     display: block; 
@@ -111,13 +116,20 @@ footer{
 .kid:nth-child(4){
     transition-delay: 900ms;
 }
-.vi{
-    border: 3px solid aliceblue;
-    border-width: .5rem;
-    border-style: double;
+.vi1{
+    border: 3px groove #3d9943;
     box-sizing: border-box;
 }
+.vi2{
+    border: 3px groove #a33128;
+    box-sizing: border-box;
+}
+.vi3{
+    border: 3px groove #b9b360;
+    box-sizing: border-box;
+}
+
 a:hover{
     background-color:#3d9943;
-    border-color: aliceblue;
+    border: 0.2rem groove #c58029;
 }
