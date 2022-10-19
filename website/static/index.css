@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
 h1{
     margin-top: 3rem !important;
+    margin-right: 10rem;
 }
 .term{
     margin-top: 5rem;
@@ -13,4 +16,87 @@ video{
 }
 .def{
     margin-top:1.5rem;
+}
+ul{
+    list-style: none;
+}
+div{
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+.show{
+    opacity:1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden{
+        transition: none;
+    }
+}
+
+#subnav{
+    display:grid !important;
+    text-align: right !important;
+    background-color: rgb(255, 0, 0) !important;
+    text-transform: uppercase !important;
+    height: fit-content !important; /* 100% Full-height */
+    width: fit-content !important; /* 0 width - change this with JavaScript */
+    position: fixed !important; /* Stay in place */
+    z-index: 1 !important; /* Stay on top */
+    top: 5rem !important; /* Stay at the top */
+    right: 0 !important;
+    overflow-x: hidden !important; /* Disable horizontal scroll */
+    padding-top: 0px !important; /* Place content 60px from the top */
+    padding-bottom: 0px !important;
+}
+.tarrow{
+    display:grid !important;
+    align-content: center;
+    height: 5rem !important; /* 100% Full-height */
+    width: 5rem !important; /* 0 width - change this with JavaScript */
+    position: fixed !important; /* Stay in place */
+    z-index: 1 !important; /* Stay on top */
+    bottom: 0rem !important; /* Stay at the top */
+    right: 0rem !important;
+    padding-top: 0px !important; /* Place content 60px from the top */
+    padding-bottom: 0px !important;
+}
+img{
+    height: 5rem;
+    width: 5rem;
+}
+.cont{
+    margin-right: 10rem;
+    padding: 20px;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+#top{
+    margin-top: -1rem !important;
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
+    width: 100% !important;
+}
+hr { 
+    display: block; 
+    border: 0; 
+    border-top: 1px solid rgb(250, 5, 5);
+    margin: 1em 0; 
+    padding: 0; 
+}
+
+footer{
+    margin-top: 2rem;
 }

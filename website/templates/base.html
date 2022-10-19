@@ -19,7 +19,7 @@
         <title>{% block title %}The Pugilist's Encyclopedia{% endblock %}</title>
     </head>
     <body class="p-3 m-0 border-0 bd-example">
-        <nav class="navbar navbar-expand-sm navbar-dark bg-danger fixed-top">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-danger" id="top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -87,7 +87,9 @@
             type="text/javascript"
             src="{{ url_for('static', filename='index.js') }}"
         ></script>
+        <script defer src='./static/scroll.js'></script>
     </body>
+    <hr>
     <footer align="center">
         <p><strong>Author: Melanin-Man</strong></p>
         <p><a href="mailto:resistanticon@gmail.com">resistanticon@gmail.com</a></p>
