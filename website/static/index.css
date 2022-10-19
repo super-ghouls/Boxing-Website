@@ -117,3 +117,7 @@ footer{
     border-style: double;
     box-sizing: border-box;
 }
+a:hover{
+    background-color:#3d9943;
+    border-color: aliceblue;
+}
