@@ -1,12 +1,12 @@
-{% extends "base.html" %} {% block title %}The Straight/Cross{% endblock %} {% block h1 %}The Straight/Cross - 2{% endblock %}
+{% extends "base.html" %} {% block title %}The Straight/Cross{% endblock %}
 {% block content %} 
-
-<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-left" id="subnav" role='navigation'>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+<h1 class="hidden" id="hed">The Straight/Cross - 2</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-right" id="subnav" role='navigation'>
+    <button class="toggler closebtn" id="toggler" type="button" onclick='toggleNav()'>
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbar">
-        <div class="navbar-nav">
+    <div class="navbar-collapse sidebar" id="navbar">
+        <div class="navbar-nav collapse show" id="sidebar">
             <ul>
                 <li><a class="nav-item nav-link" href="#straight">The Straight</a></li>
                 <li><a class="nav-item nav-link" href="#chop">Chopping Right</a></li>
@@ -22,8 +22,8 @@
         </div>
     </div>
 </nav>
-<div class="cont">
-<div><a class="tarrow" href="#top"><img src=".\static\arrow-bar-up.svg"></a></div>
+<div class="cont" id="cont">
+<div><a class="tarrow" id="arr" href="#top"><img src=".\static\arrow-bar-up.svg"></a></div>
 <div class="term hidden" id='straight'><h3>The Straight - 2 </h3></div>
     <div class="def hidden">
         One the most powerful punches that can be thrown often preceded by a jab or lead hook. Executed by 

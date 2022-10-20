@@ -3,9 +3,10 @@
 h1{
     margin-top: 3rem !important;
     margin-right: 10rem;
+    transition: .75s;
 }
 .term{
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     margin-bottom: 0rem;
 }
 .wholeterm{
@@ -42,14 +43,21 @@ div{
         transition: none;
     }
 }
-
+.hide{
+    width: 0rem !important;
+    transition: .75s;
+}
+#sidebar{
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
 #subnav{
     display:grid !important;
-    text-align: right !important;
+    text-align: left !important;
     background-color: #e6b869 !important;
     text-transform: uppercase !important;
     height: 100% !important; /* 100% Full-height */
-    width: 14rem !important; /* 0 width - change this with JavaScript */
+    width: 14rem; /* 0 width - change this with JavaScript */
     position: fixed !important; /* Stay in place */
     z-index: 1 !important; /* Stay on top */
     top: 0 !important; /* Stay at the top */
@@ -57,8 +65,9 @@ div{
     overflow-x: hidden !important; /* Disable horizontal scroll */
     padding-top: 0px !important; /* Place content 60px from the top */
     padding-bottom: 0px !important;
+    transition: .75s;
 }
-.navbar-toggler{
+.toggler{
     display:grid !important;
     align-content: center;
     height: fit-content !important; /* 100% Full-height */
@@ -69,29 +78,44 @@ div{
     right: 3rem !important;
     padding-top: 0px !important; /* Place content 60px from the top */
     padding-bottom: 0px !important;
-}
-.navbar-toggler a:hover{
     background-color:#3d9943;
-    border: 0.2rem groove #a33128;
+    border-radius: .5rem !important;
+    transition: .75s;
+    border: 0.1rem solid #f00820;
+}
+.tcolor{
+    background-color: #e6b869;
+    border: 0.1rem solid #3d9943;
+    transition: .75s;
 }
 .tarrow{
     display:grid !important;
     align-content: center;
-    height: 5rem !important; /* 100% Full-height */
-    width: 5rem !important; /* 0 width - change this with JavaScript */
+    height: 4rem !important; /* 100% Full-height */
+    width: 4rem !important; /* 0 width - change this with JavaScript */
     position: fixed !important; /* Stay in place */
     z-index: 1 !important; /* Stay on top */
     bottom: 0rem !important; /* Stay at the top */
-    right: 0rem !important;
+    right: 0rem;
     padding-top: 0px !important; /* Place content 60px from the top */
     padding-bottom: 0px !important;
+    transition: 1s;
+}
+.adjustarrow{
+    right:2rem !important;
+    transition: .75s;
 }
 img{
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
+}
+.exp{
+    transition: .75s;
+    margin-right: 0 !important;
 }
 .cont{
     margin-right: 10rem;
+    transition: .75s;
     padding: 20px;
 }
 body{
@@ -108,8 +132,8 @@ body{
     background-color: #f00820 !important;
 }
 #top a:hover{
-    background-color:#3d9943;
-    border: 0.2rem groove #a33128;
+    background-color:#e6b869;
+    border: 0.1rem solid #3d9943;
 }
 hr { 
     display: block; 
@@ -147,5 +171,5 @@ footer{
 
 a:hover{
     background-color:#3d9943;
-    border: 0.2rem groove #c58029;
+    border: 0.05rem solid #f00820;
 }

@@ -1,88 +1,117 @@
-{% extends "base.html" %} {% block title %}The Jab{% endblock %} {% block h1 %}The Jab - 1{% endblock %}
+{% extends "base.html" %} {% block title %}The Jab{% endblock %}
 {% block content %} 
-<div class="term"><h3>Jab - 1</h3></div>
-    <div class="def">
+<h1 class="hidden" id="hed">The Jab - 1</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-right" id="subnav" role='navigation'>
+    <button class="toggler closebtn" id="toggler" type="button" onclick='toggleNav()'>
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse sidebar" id="navbar">
+        <div class="navbar-nav collapse show" id="sidebar">
+            <ul>
+                <li><a class="nav-item nav-link" href="#jab">The Jab</a></li>
+                <li><a class="nav-item nav-link" href="#45">45-Degree Jab</a></li>
+                <li><a class="nav-item nav-link" href="#bh">Back-Hand Jab</a></li>
+                <li><a class="nav-item nav-link" href="#bu">Back-Up Jab</a></li>
+                <li><a class="nav-item nav-link" href="#bod">Body Jab</a></li>
+                <li><a class="nav-item nav-link" href="#feint">Feint/Fake Jab</a></li>
+                <li><a class="nav-item nav-link" href="#flick">Flicker Jab</a></li>
+                <li><a class="nav-item nav-link" href="#paw">Pawing Jab</a></li>
+                <li><a class="nav-item nav-link" href="#pow">Power Jab</a></li>
+                <li><a class="nav-item nav-link" href="#step">Step-Through Jab</a></li>
+                <li><a class="nav-item nav-link" href="#stiff">Stiff/Step-In Jab</a></li>
+                <li><a class="nav-item nav-link" href="#swiv">Swivel Jab</a></li>
+                <li><a class="nav-item nav-link" href="#trip">Trip-Hammer Jab</a></li>
+                <li><a class="nav-item nav-link" href="#up">Up Jab</a></li>
+                <li><a class="nav-item nav-link" href="#vert">Vertical Jab</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div><a class="tarrow" id="arr" href="#top"><img src=".\static\arrow-bar-up.svg"></a></div>
+<div class="cont" id="cont">
+<div class="term hidden" id="jab"><h3>Jab - 1</h3></div>
+    <div class="def hidden">
         The most important strike in boxing and arguably all combat sports. Thrown from the lead hand 
         in a straight line, it's the fastest and most direct strike. Its strength lies in its versatility
         and ability to be used while moving as well as its ability to stop your opponent from moving. 
         The basic jab is executed by extending the lead hand out in a straight line making sure your 
         shoulder comes up to protect the chin, ensuring full extension and hip rotation.
-        <div class="dboxers">
+        <div class="dboxers hidden">
             Notable Users: Gennady Golovkin, Vasily Lomanchenko, Jermall Charlo
         </div>
     </div>
-<div class="term"><h3>45-Degree Jab</h3></div>
-    <div class="def">
+<div class="term hidden" id="45"><h3>45-Degree Jab</h3></div>
+    <div class="def hidden">
         A powerful jab thrown from a low position, can be executed from a low hand or a crouching position, 
         throwing the jab at an upward angle. 
-            <div class"dboxers">
+            <div class"dboxers hidden">
                 Notable Users: 'Iron' Mike Tyson, Donovan 'Razor' Ruddock, Manny Pacquiao
             </div>
     </div>
-<div class="term"><h3>Back-Hand Jab</h3></div>
-    <div class="def">
+<div class="term hidden" id="bh"><h3>Back-Hand Jab</h3></div>
+    <div class="def hidden">
         A jab thrown where the impact is on the back of the hand or the knuckle of the pinky. Useful after 
         throwing a lead hook or from a low hand position using a whipping motion, sometimes confused for an 
         up jab
-            <div class"dboxers">
+            <div class"dboxers hidden">
                 Notable Users: ‘Sugar’ Shane Mosely, Muhammad Ali, Roy Jones Jr.
             </div>
     </div>
-<div class="term"><h3>Back-Up Jab</h3></div>
-    <div class="def">
+<div class="term hidden" id="bu"><h3>Back-Up Jab</h3></div>
+    <div class="def hidden">
         A useful jab for boxers on the move, executed by stepping backward and throwing the jab at the oncoming 
         opponent.
-            <div class"dboxers">
+            <div class"dboxers hidden">
                 Notable Users: Floyd Mayweather, Muhammad Ali, Larry Holmes
             </div>
     </div>
-<div class="term"><h3>Body Jab</h3></div> 
-    <div class="def">
+<div class="term hidden" id="bod"><h3>Body Jab</h3></div> 
+    <div class="def hidden">
         An effective jab aimed at the body, specifically the solar plexus,diaphragm or the pit of the stomach. 
         Used to disrupt the opponent’s breathing, rhythm, and can even break their balance. Can be considered 
         a variant of the stiff/step-in jab specifically since they’re executed the same way, just thrown at 
         different targets. 
-            <div class="dboxers">
+            <div class="dboxers hidden">
                 Notable Users: Floyd Mayweather, Thomas Hearns, Andre Ward
             </div>
     </div>
-<div class="term"><h3>Feint/Fake Jab</h3><div>
-        <div class="def">
+<div class="term hidden" id="feint"><h3>Feint/Fake Jab</h3><div>
+        <div class="def hidden">
             A tool used to set up a more powerful punch or disrupt your opponent, executed by only partially 
             extending the lead hand then retracting it.
-            <div class="dboxers">
+            <div class="dboxers hidden">
                 Notable Users: Tyson Fury, Floyd Maywather, Guillermo Rigondeaux
             </div>
         </div>
-<div class="term"><h3>Flicker Jab</h3><div>
-    <div class="def">
+<div class="term hidden" id="flick"><h3>Flicker Jab</h3><div>
+    <div class="def hidden">
         Similar to the pawing jab it has little power but can be used to occupy your opponents vision or guard. 
         Executed by throwing several jabs from the elbow.
-        <div class="dboxers">
+        <div class="dboxers hidden">
             PNotable Users: Thomas Hearns, Sugar Shane Mosley, Vasily Lomanchenko
         </div>
     </div>
-<div class="term"><h3>Pawing Jab</h3></div> 
-    <div class="def">
+<div class="term hidden" id="paw"><h3>Pawing Jab</h3></div> 
+    <div class="def hidden">
         While this jab has little power, it’s effectiveness comes from occupying your opponent’s guard and line of 
         sight. Executed by throwing lightly and leaving the arm extended either occupying the area in front of your 
         opponent’s guard or resting on their glove, shoulder or head.
-        <div class="dboxers">
+        <div class="dboxers hidden">
             Notable Users: Larry Holmes, Wladimir Klitschko, Tyson Fury
         </div>
     </div>
-<div class="term"><h3>Power Jab</h3></div>
-    <div class="def">
+<div class="term hidden" id="pow"><h3>Power Jab</h3></div>
+    <div class="def hidden">
         The most powerful jab, with potential to knock an opponent out. Generally the power jab is 
         executed by pushing off the back foot as you jab, putting your whole body weight and momentum 
         behind the punch. Can knock your opponent off balance or split your opponent’s guard which you 
         can then follow through with a straight or cross.
-        <div class="dboxers">
+        <div class="dboxers hidden">
             Notable users: Manny Pacquiao, Miguel Cotto, Ike Quartey
         </div>
     </div>
-<div class="term"><h3>Step-Through Jab</h3></div>
-    <div class="def">
+<div class="term hidden" id="step"><h3>Step-Through Jab</h3></div>
+    <div class="def hidden">
         The second most powerful jab, the step through jab is executed by taking a deep step in with the rear 
         foot then stepping through with the lead leg and throwing the jab, the power is generated by the momentum 
         of your body going forward and the twisting of your hips as you shift your weight from your right leg to 
@@ -91,47 +120,48 @@
                 Notable Users: Sergey Kovalev and Vasily Lomanchenko
             </div>
     </div>
-<div class="term"><h3>Stiff/Step-In Jab</h3></div>
-    <div class="def">
+<div class="term hidden" id="stiff"><h3>Stiff/Step-In Jab</h3></div>
+    <div class="def hidden">
         A more powerful jab where the boxer steps in with his lead foot as he jabs and retracts his 
         lead foot and jab at the same time. This can be used to fool your opponent into thinking you 
         have more range and power than you actually possess. Can also be used after fooling your 
         opponent into thinking he’s at a safe distance.
-        <div class="dboxers">
+        <div class="dboxers hidden">
             Notable Users: Floyd Mayweather, Saul Canelo Alvarez, Juan Manuel Marquez
         </div>
     </div>
-<div class="term"><h3>Swivel Jab</h3></div>
-    <div class="def">
+<div class="term hidden" id="swiv"><h3>Swivel Jab</h3></div>
+    <div class="def hidden">
         Another powerful jab, whose power is generated mainly by the hips, it is generally thrown from an open 
         stance or after a cross/straight, where the rear shoulder is closer to the opponent than the lead shoulder. 
         The jab is then thrown to reset into a bladed stance and catch your opponent off guard if they attempt to 
         counter or attack in your vulnerable squared position.
-        <div class="dboxers">
+        <div class="dboxers hidden">
             Notable Users: Erislandy Lara, Noaya Inoues
         </div>
     </div>
-<div class="term"><h3>Trip-Hammer Jab</h3></div>
-    <div class="def">
+<div class="term hidden" id="trip"><h3>Trip-Hammer Jab</h3></div>
+    <div class="def hidden">
         Not a particularly strong jab, thrown from a high guard, used to occupy or remove your opponents guard. 
         Thrown in a downward motion from the high guard.
-        <div class="dboxers">
+        <div class="dboxers hidden">
             Notable Users: Adrien Broner, Saul 'Canelo' Alvarez
         </div>
     </div>
-<div class="term"><h3>Up Jab</h3></div>
-    <div class="def">
+<div class="term hidden" id="up"><h3>Up Jab</h3></div>
+    <div class="def hidden">
         A jab thrown from a low lead hand, point of impact is the top of the knuckles. Usefulness comes from how 
         hard it is to see coming and can pick up the chin of the opponent.
-        <div class="dboxers">
+        <div class="dboxers hidden">
             Notable Users: Floyd Mayweather, James Toney, Tyson Fury
         </div>
     </div>  
-<div class="term"><h3>Vertical Jab</h3></div>
-    <div class="def">
+<div class="term hidden" id="vert"><h3>Vertical Jab</h3></div>
+    <div class="def hidden">
         A useful jab used to split the guard. Executed like a normal jab without turning the fist over.
-        <div class="dboxers">
+        <div class="dboxers hidden">
             Notable Users: Manny Pacquiao, Jack Dempsey, 'Dutch' Sam 
         </div>
     </div> 
+</div>
 {% endblock %}

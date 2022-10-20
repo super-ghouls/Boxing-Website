@@ -23,7 +23,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbar">
+            <div class="navbar-collapse" id="navbar">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" id="login" href="/login">Login</a>
                     <a class="nav-item nav-link" id="signup" href="/signup">Signup</a>
@@ -61,7 +61,6 @@
                 {% endfor %}
             {% endif %}
         {% endwith %}
-        <h1 align="center">{% block h1 %}The Pugilist's Encyclopedia{% endblock %}</h1>
         <div class="container">
             {% block content %}
             {% endblock %}
