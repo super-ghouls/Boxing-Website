@@ -84,11 +84,13 @@
 ## Usage
 
 <div align="center">
+<a href="https://github.com/dylanagyemang/Boxing-Website">
 <video autoplay width="250">
 
     <source src="website/static/The Pugilist's Encyclopedia demo.webm"
             type="video/webm">
 </video>
+</a>
   </div>
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
