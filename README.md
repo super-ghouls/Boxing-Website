@@ -6,7 +6,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-<a name="readme-top"></a>
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -82,20 +82,9 @@
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-<div align="center">
-<a href="https://github.com/dylanagyemang/Boxing-Website">
-<video autoplay width="250">
-
-    <source src="website/static/The Pugilist's Encyclopedia demo.webm"
-            type="video/webm">
-</video>
-</a>
+<div align ="center">
+<a name="readme-top"></a>[Website demo.webm](https://user-images.githubusercontent.com/105815142/197080957-403ada26-815c-4d06-a530-c85b7c049583.webm)
   </div>
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-
-    
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
