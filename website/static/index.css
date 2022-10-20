@@ -58,6 +58,22 @@ div{
     padding-top: 0px !important; /* Place content 60px from the top */
     padding-bottom: 0px !important;
 }
+.navbar-toggler{
+    display:grid !important;
+    align-content: center;
+    height: fit-content !important; /* 100% Full-height */
+    width: fit-content !important; /* 0 width - change this with JavaScript */
+    position: fixed !important; /* Stay in place */
+    z-index: 1 !important; /* Stay on top */
+    top: 1rem !important; /* Stay at the top */
+    right: 3rem !important;
+    padding-top: 0px !important; /* Place content 60px from the top */
+    padding-bottom: 0px !important;
+}
+.navbar-toggler a:hover{
+    background-color:#3d9943;
+    border: 0.2rem groove #a33128;
+}
 .tarrow{
     display:grid !important;
     align-content: center;
