@@ -74,8 +74,8 @@ div{
     width: fit-content !important; /* 0 width - change this with JavaScript */
     position: fixed !important; /* Stay in place */
     z-index: 1 !important; /* Stay on top */
-    top: 1rem !important; /* Stay at the top */
-    right: 3rem !important;
+    top: 0rem; /* Stay at the top */
+    right: 0rem;
     padding-top: 0px !important; /* Place content 60px from the top */
     padding-bottom: 0px !important;
     background-color:#3d9943;
@@ -86,6 +86,8 @@ div{
 .tcolor{
     background-color: #e6b869;
     border: 0.1rem solid #3d9943;
+    top: 1rem;
+    right: 3rem;
     transition: .75s;
 }
 .tarrow{

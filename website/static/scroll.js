@@ -14,11 +14,13 @@ function toggleNav() {
     var head = document.getElementById("hed");
     var arr = document.getElementById("arr");
     var tog = document.getElementById("toggler");
+    var dud = document.getElementById("dudley");
     nav.classList.toggle("hide");
     content.classList.toggle("exp");
     head.classList.toggle("exp");
     arr.classList.toggle("adjustarrow");
     tog.classList.toggle("tcolor");
+    dud.classList.toggle("show");
   }
 
 
