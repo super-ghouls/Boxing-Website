@@ -82,7 +82,8 @@
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-<div>
+
+<div align="center">
 <video autoplay width="250">
 
     <source src="website/static/The Pugilist's Encyclopedia demo.webm"
