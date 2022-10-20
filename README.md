@@ -85,6 +85,12 @@
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
+<div align="center">
+  <a href="https://github.com/dylanagyemang/Boxing-Website">
+    <video src="website/static/The Pugilist's Encyclopedia demo.webm">
+  </a>
+  </div>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
