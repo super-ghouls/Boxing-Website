@@ -25,4 +25,10 @@ function toggleNav() {
 
 
 const hiddenElements = document.querySelectorAll('.hidden');
+const hiddenyElements = document.querySelectorAll('.hiddeny');
+const hiddenuElements = document.querySelectorAll('.hiddenu');
+const hiddenzElements = document.querySelectorAll('.hiddenz');
 hiddenElements.forEach((el) => observer.observe(el));
+hiddenyElements.forEach((el) => observer.observe(el));
+hiddenuElements.forEach((el) => observer.observe(el));
+hiddenzElements.forEach((el) => observer.observe(el));
