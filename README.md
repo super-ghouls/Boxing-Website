@@ -82,9 +82,9 @@
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-<div align ="center">
+
+
 https://user-images.githubusercontent.com/105815142/197081358-4123963b-dedc-44a6-8bda-bccccd864a90.mp4
-  </div>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
