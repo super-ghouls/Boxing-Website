@@ -113,6 +113,7 @@ div{
     right: 0rem;
     transition: .5s;
     transform: rotate(180deg);
+    filter: invert(0%) !important;
 }
 .tarrow{
     display:grid !important;
@@ -153,7 +154,7 @@ body{
     margin-top: -1rem !important;
     margin-left: -1rem !important;
     margin-right: -1rem !important;
-    width: 100% !important;
+    
     height: 4rem !important;
     background-color: #f00820 !important;
 }
