@@ -169,13 +169,13 @@ footer{
 }
 
 .kid:nth-child(2){
-    transition-delay: 300ms;
+    transition-delay: 900ms;
 }
 .kid:nth-child(3){
     transition-delay: 600ms;
 }
 .kid:nth-child(4){
-    transition-delay: 900ms;
+    transition-delay: 300ms;
 }
 .vi1{
     border: 3px groove #3d9943;
