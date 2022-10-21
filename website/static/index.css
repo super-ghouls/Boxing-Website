@@ -93,21 +93,26 @@ div{
     width: fit-content !important; /* 0 width - change this with JavaScript */
     position: fixed !important; /* Stay in place */
     z-index: 1 !important; /* Stay on top */
-    top: 0rem; /* Stay at the top */
-    right: 0rem;
+    top: 50%; /* Stay at the top */
+    right: 11rem;
     padding-top: 0px !important; /* Place content 60px from the top */
     padding-bottom: 0px !important;
-    background-color:#3d9943;
-    border-radius: .5rem !important;
-    transition: .75s;
-    border: 0.1rem solid #f00820;
+    background-color: transparent;
+    border: 0.1rem solid transparent;
+    transition: 1s;
+}
+.manImg{
+    height: 2rem; 
+    width: 2rem;
+}
+.closebtn{
+    outline: none !important;
+    border: none !important;
 }
 .tcolor{
-    background-color: #e6b869;
-    border: 0.1rem solid #3d9943;
-    top: 1rem;
-    right: 3rem;
-    transition: .75s;
+    right: 0rem;
+    transition: .5s;
+    transform: rotate(180deg);
 }
 .tarrow{
     display:grid !important;
@@ -122,13 +127,13 @@ div{
     padding-bottom: 0px !important;
     transition: 1s;
 }
+.ars{
+    height: 4rem;
+    width: 4rem;
+}
 .adjustarrow{
     right:2rem !important;
     transition: .75s;
-}
-img{
-    height: 4rem;
-    width: 4rem;
 }
 .exp{
     transition: .75s;
@@ -148,7 +153,7 @@ body{
     margin-top: -1rem !important;
     margin-left: -1rem !important;
     margin-right: -1rem !important;
-    width: 78rem !important;
+    width: 100% !important;
     height: 4rem !important;
     background-color: #f00820 !important;
 }
