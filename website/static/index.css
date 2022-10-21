@@ -170,8 +170,10 @@ hr {
     padding: 0; 
 }
 
-footer{
-    margin-top: 2rem;
+footer {
+        background-color:  #dc3545!important;
+        padding: 40px;
+        min-height: 100px;
 }
 
 .kid:nth-child(2){
